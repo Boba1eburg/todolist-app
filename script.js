@@ -74,6 +74,7 @@ function createCategoryElement(category) {
     </div>
     <button class="addBtn" onclick="addTask(${category.id})">Add</button>
     <button class="addBtn" onclick="startRename(${category.id})">Rename</button>
+    <button class="delBtn" onclick="deleteCategory(${category.id})">Del</button>
   `;
   
   return categoryDiv;
