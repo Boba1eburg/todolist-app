@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1>Мои задачи</h1>
+
+    <div class="category">
+      <div class="box-category">Ежедневные задачи</div>
+      <button class="addBtn">Add</button>
+      <button class="addBtn">Rename</button>
+    </div>
+
+    <div class="add-category">
+      <input type="text" id="categoryInput" placeholder="Добавить новую категорию...">
+      <button class="addBtn" id="addCategoryBtn">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
